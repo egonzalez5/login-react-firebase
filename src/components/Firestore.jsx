@@ -15,7 +15,7 @@ function Firestore(props) {
   const [desactivar, setDesactivar] = useState(false)
 
   useEffect(() => {
-
+ 
     const obtenerDatos = async () => {
 
       try {

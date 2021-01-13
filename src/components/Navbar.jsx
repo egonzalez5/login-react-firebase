@@ -11,7 +11,7 @@ const Navbar = (props) => {
                 props.history.push('/login')
             })
     }
-
+ 
     return (
         <div className="navbar navbar-dark bg-dark">
             <Link className="navbar-brand" to="/">auth</Link>
